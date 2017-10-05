@@ -22,7 +22,9 @@
       <jiujichina-common-mongodb.version>1.0.1</jiujichina-common-mongodb.version>
       <jiujichina-common-base.version>1.0.1</jiujichina-common-base.version> 
       
+       
        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
+       <java-version>1.8</java-version> 
        <druid-version>1.0.9</druid-version>
        <mysql-connector-java-version>5.1.8</mysql-connector-java-version>
        <org.springframework-version>3.2.3.RELEASE</org.springframework-version>  
@@ -41,27 +43,7 @@
        <spring-data-redis.version>1.4.2.RELEASE</spring-data-redis.version>
        <spring-data-mongodb.version>1.2.0.RELEASE</spring-data-mongodb.version>
        <hibernate-jpa-2.0-api.version>1.0.1.Final</hibernate-jpa-2.0-api.version>
-       
-       <java-version>1.8</java-version>  
-       <druid-version>1.0.9</druid-version>
-       <mysql-connector-java-version>5.1.8</mysql-connector-java-version>
-       <org.springframework-version>3.2.3.RELEASE</org.springframework-version>  
-       <org.aspectj-version>1.6.10</org.aspectj-version>  
-       <org.slf4j-version>1.6.6</org.slf4j-version>  
-       <shiro.version>1.2.3</shiro.version>
-       <ehcache.version>2.6.9</ehcache.version> 
-       <springVersion>4.1.5.RELEASE</springVersion>
-       <hibernateVersion>4.2.8.Final</hibernateVersion>
-       <mybatisVersion>3.2.5</mybatisVersion> 
-       <activiti.version>5.22.0</activiti.version>
-       <activemq.version>5.9.0</activemq.version>
-       <batik.vervsion>1.7</batik.vervsion>
-       <joda-time.version>2.1</joda-time.version>
-       <spring-data-jpa.version>1.9.1.RELEASE</spring-data-jpa.version>
-       <spring-data-redis.version>1.4.2.RELEASE</spring-data-redis.version>
-       <spring-data-mongodb.version>1.2.0.RELEASE</spring-data-mongodb.version>
-       <hibernate-jpa-2.0-api.version>1.0.1.Final</hibernate-jpa-2.0-api.version>
-       
+        
   </properties>
    
   
@@ -808,7 +790,7 @@
             </plugin>  
         </plugins>   -->
         
-  <plugins>
+     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
